@@ -1,3 +1,5 @@
+/* This is the start of the first part */
+
 li{
     list-style: none;
 }
@@ -14,7 +16,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 200vh;
     margin:0;
     gap: 0px;
 }
@@ -29,14 +31,17 @@ body{
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
 .first_page{
     display: flex;
     flex-direction: column;
     justify-content: baseline;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 275px;
+    padding-right: 275px;
     background-color: #1f2937;
     height: 50vh;
     margin: 0px;
@@ -46,12 +51,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;  
-    
 }
 
 #content1{
     display: flex;
-    gap: 5px;
+    flex-direction: column;
+    gap: 15px;
     padding: 0px;
     margin-top: 50px;
     width: 400;
@@ -63,6 +68,7 @@ body{
     font-size:48px;
     font-weight: bolder;
     color: #F9FAF8;
+    line-height: 45px;
     display: flex;
     flex-wrap: wrap;
     width: 500;
@@ -76,15 +82,22 @@ body{
     margin: 0px;   
 }
 
-#img1{
+#mountain{
     display: flex;
-    flex-direction: row;
+    height: 300;
+    padding-top: 35px;
 }
 
 #body1{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 200px;
+    
 }
+
+/* This is the end of the first part */
+
+/* This is the tart of the second part */
 
 .two{
     display: flex;
