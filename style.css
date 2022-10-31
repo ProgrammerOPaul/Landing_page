@@ -15,7 +15,7 @@ ul{
 body{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 200vh;
     margin:0;
     gap: 0px;
@@ -40,8 +40,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: baseline;
-    padding-left: 275px;
-    padding-right: 275px;
+    /* padding-left: 275px;
+    padding-right: 275px; */
     background-color: #1f2937;
     height: 50vh;
     margin: 0px;
@@ -51,6 +51,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;  
+    padding-left: 270px;
+    padding-right: 270px;
+    flex-wrap: wrap;
+    margin-left: 0px;
 }
 
 #content1{
@@ -84,7 +88,7 @@ body{
 
 #mountain{
     display: flex;
-    height: 300;
+    height: 300px;
     padding-top: 35px;
 }
 
@@ -99,10 +103,34 @@ body{
 
 /* This is the tart of the second part */
 
-.two{
+.second_page{
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 0px;
     margin: 0px;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+#header2{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* This is the end of the second part */
+
+/* This is the tart of the third part */
+
+/* .third_page{
+    display: flex;
+    background-color: blue;
+    height: 50vh;
+}
+
+#Hello{
+    display: flex;
+} */
