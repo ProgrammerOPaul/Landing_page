@@ -6,7 +6,7 @@ li{
 
 ul{
     display: flex;
-    margin: 0;
+    margin: 0px;
     gap: 15px;
     padding-bottom: 0px;
     margin: 0px;
@@ -18,6 +18,7 @@ body{
     justify-content: flex-start;
     height: 200vh;
     margin:0;
+    padding: 0px;
     gap: 0px;
 }
 
@@ -65,7 +66,7 @@ body{
     margin-top: 50px;
     width: 400;
     flex-wrap: wrap;
-}
+   }
 
 
 #title1{
@@ -86,10 +87,15 @@ body{
     margin: 0px;   
 }
 
-#mountain{
+/* #mountain{
     display: flex;
-    height: 300px;
     padding-top: 35px;
+    flex-wrap: wrap;
+} */
+
+#first{
+    max-width: 600px;
+    height: auto;
 }
 
 #body1{
@@ -99,38 +105,86 @@ body{
     
 }
 
+#sign_up{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100; 
+    border-radius: 10px; 
+    padding: 5px;  
+}
+
 /* This is the end of the first part */
 
 /* This is the tart of the second part */
 
 .second_page{
     display: flex;
-    padding: 0px;
-    margin: 0px;
     height: 50vh;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
 }
 
 #header2{
     display: flex;
     margin: 0px;
-    padding: 0px;
-    align-items: center;
     justify-content: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+    }
+
+#content2{
+    display: flex;
+    gap: 80px;
+    }
+
+.combo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
+
+.foto /*img div class*/ {
+    display: flex;
+    max-width: 180px;
+    max-height: 180px;
+    border: 5px solid #3882f6;
+    background-color: #3882f6; 
+    border-radius: 10px;
+}
+
+.fotos /*img class*/ {
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+    border-radius: 10px;
+    border: #1f2937;
+}
+
+.fotos_text{
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    text-align: center;
+    color: gray;
+    font-size: smaller;
+}
+
+
 
 /* This is the end of the second part */
 
 /* This is the tart of the third part */
 
-/* .third_page{
+ .third_page{
     display: flex;
     background-color: blue;
     height: 50vh;
+    margin: 1px;
 }
-
-#Hello{
-    display: flex;
-} */
