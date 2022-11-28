@@ -1,5 +1,4 @@
-/* This is the start of the first part */
-
+/* This is the body of the document */
 li{
     list-style: none;
 }
@@ -16,93 +15,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 200vh;
     margin:0;
-    padding: 0px;
-    gap: 0px;
-}
-
-.link{
-    outline: none;
-    text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
-}
-
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
-    display: flex;
-    flex-shrink: 0;
-    flex-grow: 0;
-}
-
-.first_page{
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    /* padding-left: 275px;
-    padding-right: 275px; */
-    background-color: #1f2937;
-    height: 50vh;
-    margin: 0px;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
-    padding-left: 270px;
-    padding-right: 270px;
-    flex-wrap: wrap;
-    margin-left: 0px;
-}
-
-#content1{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 0px;
-    margin-top: 50px;
-    width: 400;
-    flex-wrap: wrap;
-   }
-
-
-#title1{
-    font-size:48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-    line-height: 45px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 500;
-    margin: 0px;
-}
-
-#text1{
-    color: #E5E7EB;
-    font-size: 18px; 
-    display: flex;
-    margin: 0px;   
-}
-
-/* #mountain{
-    display: flex;
-    padding-top: 35px;
-    flex-wrap: wrap;
-} */
-
-#first{
-    max-width: 600px;
-    height: auto;
-}
-
-#body1{
-    display: flex;
-    justify-content: center;
-    gap: 200px;
-    
 }
 
 .sign_up{
@@ -116,13 +29,79 @@ body{
     padding: 5px;  
 }
 
+/* This is the start of the first part */
+
+
+.first_page{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: baseline; */
+    background-color: #1f2937;
+    /* height: 50vh; */
+    margin: 0px;
+    padding-bottom: 70px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 770px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    white-space: nowrap;
+}
+
+.link{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#body1{
+    display: flex;
+    justify-content: center;
+    gap: 220px; 
+}
+
+#content1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    width: 500;
+   }
+
+
+#title1{
+    font-size:48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+#text1{
+    color: #E5E7EB;
+    font-size: 18px; 
+    margin: 0px;   
+}
+
+#first{
+    max-width: 580px;
+    height: auto;
+    margin-top: 42px;
+}
+
 /* This is the end of the first part */
 
 /* This is the tart of the second part */
 
 .second_page{
     display: flex;
-    height: 50vh;
+    padding-bottom: 60px;
     flex-direction: column;
     justify-content: baseline;
     align-items: center;
@@ -230,5 +209,40 @@ body{
     display: flex;
     background-color: #3882f6;
     color: #f9faf8;
-    width: 90vh;
+    padding: 60px 80px;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+#title4{
+    font-weight: bolder;
+    font-size: large;
+}
+
+#words4{
+    font-size: smaller;
+}
+
+#boton{
+    font-weight: bold;
+    font-size: 18px;
+    width: 100; 
+    height: 40px;
+    border-radius: 10px; 
+    padding: 5px;  
+}
+
+
+/* end of fourth page */
+
+/* Beggining of fith page */
+
+.fith_page{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
