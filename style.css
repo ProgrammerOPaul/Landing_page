@@ -128,8 +128,8 @@ body{
 
 .picture_border /*img div class*/ {
     display: flex;
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border: 5px solid #3882f6;
     background-color: #3882f6; 
     border-radius: 10px;
@@ -175,6 +175,7 @@ body{
     color: #1f2937;
     font-weight: light;
     max-width: 1100px;
+    text-align: center;
 }
 
 #cite{
@@ -216,7 +217,7 @@ body{
 
 /* Beggining of fith page */
 
-.fith_page{
+footer{
     background-color: #1f2937;
     color: white;
     display: flex;
