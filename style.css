@@ -22,11 +22,11 @@ body{
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     width: 100; 
-    height: 30px;
+    height: 40px;
     border-radius: 10px; 
-    padding: 5px;  
+    padding: 5px; 
 }
 
 /* This is the start of the first part */
@@ -159,6 +159,7 @@ body{
     padding: 40px 0;
     margin: 0px;
     justify-content: center;    
+    
 }
 
 #block{
@@ -186,7 +187,7 @@ body{
 
 .fourth_page{
     display: flex;
-    height: 43vh;
+    padding: 80px 0px;
     justify-content: center;
     align-items: center;
 }
@@ -210,16 +211,6 @@ body{
 #words4{
     font-size: smaller;
 }
-
-#boton{
-    font-weight: bold;
-    font-size: 18px;
-    width: 100; 
-    height: 40px;
-    border-radius: 10px; 
-    padding: 5px;  
-}
-
 
 /* end of fourth page */
 
