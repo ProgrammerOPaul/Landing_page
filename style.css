@@ -31,13 +31,10 @@ body{
 
 /* This is the start of the first part */
 
-
-.first_page{
+.first_part{
     display: flex;
     flex-direction: column;
-    /* justify-content: baseline; */
     background-color: #1f2937;
-    /* height: 50vh; */
     margin: 0px;
     padding-bottom: 70px;
 }
@@ -99,7 +96,7 @@ body{
 
 /* This is the tart of the second part */
 
-.second_page{
+.second_part{
     display: flex;
     padding-bottom: 60px;
     flex-direction: column;
@@ -112,12 +109,12 @@ body{
     font-weight: bolder;
     font-size: 36px;
     color: #1f2937;
-    }
+}
 
 #content2{
     display: flex;
     gap: 90px;
-    }
+}
 
 .combo{
     display: flex;
@@ -153,13 +150,12 @@ body{
 
 /* This is the tart of the third part */
 
- .third_page{
+ .third_part{
     display: flex;
     background-color: #e5e7eb;
     padding: 40px 0;
     margin: 0px;
     justify-content: center;    
-    
 }
 
 #block{
@@ -186,7 +182,7 @@ body{
 
 /* beggining of fourth page */
 
-.fourth_page{
+.fourth_part{
     display: flex;
     padding: 80px 0px;
     justify-content: center;
